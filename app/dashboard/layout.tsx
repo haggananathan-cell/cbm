@@ -109,7 +109,7 @@ export default function DashboardLayout({
       </main>
 
       {/* Embedded Lightweight Mobile Media Breakpoint Styling Rules */}
-      <style jsx global>{`
+      <style>{`
         @media (max-width: 768px) {
           .sidebar {
             position: fixed;
